@@ -35,7 +35,7 @@ def getIncome():
 # print output
 def printOutput(budgetDict):
     """
-    Print formatted budget data with Canadian currency formatting.
+    Print formatted budget data with US currency formatting.
 
     Sets the locale to US English and displays each key value pair
     in the given dictionary. Values are formatted as currency with
