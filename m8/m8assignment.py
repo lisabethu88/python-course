@@ -41,7 +41,7 @@ max = aq["Data Value"].max().round(2)
 print("Mean: ", mean)
 print("Max: ", max)
 
-# bar chart
+# this bar chart shows the top 10 New York locations with the highest average air pollution
 avg_pollution_by_location.head(10).plot(kind="bar")
 plt.title("Top 10 Locations by Average Air Pollution")
 plt.xlabel("Location")
